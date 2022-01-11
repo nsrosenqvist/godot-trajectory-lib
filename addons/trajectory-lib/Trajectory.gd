@@ -16,7 +16,7 @@ extends Node
 # 	- moving_target_lateral_speed [solve_ballistic_arc_lateral:501]
 #
 # Additional reading that explains each function and its use cases can be found at:
-# 	https://medium.com/@ForrestTheWoods/solving-ballistic-trajectories-b0165523348c
+# 	https://www.forrestthewoods.com/blog/solving_ballistic_trajectories/
 #
 # The methods solve_quadric, solve_cubic and solve_quartic were originally written
 # in C by Jochen Schwarze (schwarze@isa.de) and ported over to C# by Forrest Smith:

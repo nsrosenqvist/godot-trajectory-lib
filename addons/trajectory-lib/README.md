@@ -6,7 +6,7 @@ This is a utility library that provides tools to work with, and calculate, 3D ba
 
 ## Credits
 
-Much of the code is based on the trajectory solving logic of [Forrest Smith's C# library](https://github.com/forrestthewoods/lib_fts/blob/master/code/fts_ballistic_trajectory.cs) (0.1.0). Refer to [his blog](https://medium.com/@ForrestTheWoods/solving-ballistic-trajectories-b0165523348c) for extended explanations on how to use the different techniques in your project. One method is also ported over from Miziziziz's [Godot3DProjectileSolver](https://github.com/Miziziziz/Godot3DProjectileSolver/blob/master/TurretBase.gd) project.
+Much of the code is based on the trajectory solving logic of [Forrest Smith's C# library](https://github.com/forrestthewoods/lib_fts/blob/master/code/fts_ballistic_trajectory.cs) (0.1.0). Refer to [his blog](https://www.forrestthewoods.com/blog/solving_ballistic_trajectories/) for extended explanations on how to use the different techniques in your project. One method is also ported over from Miziziziz's [Godot3DProjectileSolver](https://github.com/Miziziziz/Godot3DProjectileSolver/blob/master/TurretBase.gd) project.
 
 ## License
 
@@ -14,7 +14,7 @@ MIT
 
 ## Usage
 
-Most techniques are explained in this [blog post](https://medium.com/@ForrestTheWoods/solving-ballistic-trajectories-b0165523348c). The code is well documented so refer to [the file](https://github.com/nsrosenqvist/godot-trajectory-lib/blob/master/addons/trajectory-lib/Trajectory.gd) for how to use the API.
+Most techniques are explained in this [blog post](https://www.forrestthewoods.com/blog/solving_ballistic_trajectories/). The code is well documented so refer to [the file](https://github.com/nsrosenqvist/godot-trajectory-lib/blob/master/addons/trajectory-lib/Trajectory.gd) for how to use the API.
 
 Similarly to Godot's `intersect_ray`, most methods return a `Dictionary` with the relevant information of the solution. A solution object has the following keys set:
 
